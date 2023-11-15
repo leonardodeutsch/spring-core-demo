@@ -14,6 +14,7 @@ public class DemoController {
 
     @Autowired
     public DemoController (Coach theCoach) {
+        System.out.println("In construction: " + getClass().getSimpleName());
         myCoach = theCoach;
     }
 
