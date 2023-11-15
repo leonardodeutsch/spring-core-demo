@@ -1,4 +1,4 @@
-package com.leonardodeutsch.springcoredemo;
+package com.leonardodeutsch.springcoredemo.common;
 
 public interface Coach {
 
